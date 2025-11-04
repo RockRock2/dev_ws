@@ -1,0 +1,4 @@
+source;share/articubot_jazzy/local_setup.bash
+source;share/articubot_jazzy/local_setup.dsv
+source;share/articubot_jazzy/local_setup.sh
+source;share/articubot_jazzy/local_setup.zsh

@@ -1,0 +1,276 @@
+[0.222s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.222s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74a37059a9c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74a3706eaba0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74a3706eaba0>>, mixin_verb=('build',))
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.325s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rock/dev_ws'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_jazzy) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_jazzy) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_jazzy) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_jazzy) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_jazzy) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_jazzy) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_jazzy) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_jazzy) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_jazzy) by extension 'ros'
+[0.402s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_jazzy' with type 'ros.ament_cmake' and name 'articubot_jazzy'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[0.404s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[0.407s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.451s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/rock/ros2_ws/install
+[0.456s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 53 installed packages in /home/rock/bookros2_ws/install
+[0.461s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 448 installed packages in /opt/ros/jazzy
+[0.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'articubot_jazzy' build argument 'cmake_args' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'articubot_jazzy' build argument 'cmake_target' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'articubot_jazzy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'articubot_jazzy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'articubot_jazzy' build argument 'cmake_clean_first' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'articubot_jazzy' build argument 'cmake_force_configure' from command line to 'False'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'articubot_jazzy' build argument 'ament_cmake_args' from command line to 'None'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'articubot_jazzy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'articubot_jazzy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.663s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_jazzy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rock/dev_ws/build/articubot_jazzy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rock/dev_ws/install/articubot_jazzy', 'merge_install': False, 'path': '/home/rock/dev_ws/src/articubot_jazzy', 'symlink_install': True, 'test_result_base': None}
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.664s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rock/dev_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rock/dev_ws/install/serial', 'merge_install': False, 'path': '/home/rock/dev_ws/src/serial', 'symlink_install': True, 'test_result_base': None}
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.665s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rock/dev_ws/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rock/dev_ws/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/rock/dev_ws/src/diffdrive_arduino', 'symlink_install': True, 'test_result_base': None}
+[0.665s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.667s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.667s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rock/dev_ws/src/serial' with build type 'ament_cmake'
+[0.667s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rock/dev_ws/src/serial'
+[0.672s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.672s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.672s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.690s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rock/dev_ws/src/articubot_jazzy' with build type 'ament_cmake'
+[0.691s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rock/dev_ws/src/articubot_jazzy'
+[0.691s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.691s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rock/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rock/dev_ws/build/serial -- -j8 -l8
+[0.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rock/dev_ws/build/articubot_jazzy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rock/dev_ws/build/articubot_jazzy -- -j8 -l8
+[0.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rock/dev_ws/build/articubot_jazzy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rock/dev_ws/build/articubot_jazzy -- -j8 -l8
+[0.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rock/dev_ws/build/articubot_jazzy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rock/dev_ws/build/articubot_jazzy
+[0.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_jazzy)
+[0.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rock/dev_ws/build/articubot_jazzy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rock/dev_ws/build/articubot_jazzy
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/articubot_jazzy' for CMake module files
+[0.990s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/articubot_jazzy' for CMake config files
+[0.991s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_jazzy', 'cmake_prefix_path')
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rock/dev_ws/install/articubot_jazzy/share/articubot_jazzy/hook/cmake_prefix_path.ps1'
+[0.993s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rock/dev_ws/install/articubot_jazzy/share/articubot_jazzy/hook/cmake_prefix_path.dsv'
+[0.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rock/dev_ws/install/articubot_jazzy/share/articubot_jazzy/hook/cmake_prefix_path.sh'
+[0.997s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/articubot_jazzy/bin'
+[0.997s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/articubot_jazzy/lib/pkgconfig/articubot_jazzy.pc'
+[0.997s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/articubot_jazzy/lib/python3.12/site-packages'
+[0.998s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/articubot_jazzy/bin'
+[0.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/articubot_jazzy/share/articubot_jazzy/package.ps1'
+[1.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rock/dev_ws/install/articubot_jazzy/share/articubot_jazzy/package.dsv'
+[1.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/articubot_jazzy/share/articubot_jazzy/package.sh'
+[1.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/articubot_jazzy/share/articubot_jazzy/package.bash'
+[1.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/articubot_jazzy/share/articubot_jazzy/package.zsh'
+[1.005s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rock/dev_ws/install/articubot_jazzy/share/colcon-core/packages/articubot_jazzy)
+[1.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_jazzy)
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/articubot_jazzy' for CMake module files
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/articubot_jazzy' for CMake config files
+[1.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_jazzy', 'cmake_prefix_path')
+[1.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rock/dev_ws/install/articubot_jazzy/share/articubot_jazzy/hook/cmake_prefix_path.ps1'
+[1.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rock/dev_ws/install/articubot_jazzy/share/articubot_jazzy/hook/cmake_prefix_path.dsv'
+[1.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rock/dev_ws/install/articubot_jazzy/share/articubot_jazzy/hook/cmake_prefix_path.sh'
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/articubot_jazzy/bin'
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/articubot_jazzy/lib/pkgconfig/articubot_jazzy.pc'
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/articubot_jazzy/lib/python3.12/site-packages'
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/articubot_jazzy/bin'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/articubot_jazzy/share/articubot_jazzy/package.ps1'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rock/dev_ws/install/articubot_jazzy/share/articubot_jazzy/package.dsv'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/articubot_jazzy/share/articubot_jazzy/package.sh'
+[1.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/articubot_jazzy/share/articubot_jazzy/package.bash'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/articubot_jazzy/share/articubot_jazzy/package.zsh'
+[1.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rock/dev_ws/install/articubot_jazzy/share/colcon-core/packages/articubot_jazzy)
+[1.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rock/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rock/dev_ws/build/serial -- -j8 -l8
+[1.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rock/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rock/dev_ws/build/serial
+[1.108s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/serial' for CMake module files
+[1.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rock/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rock/dev_ws/build/serial
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/serial' for CMake config files
+[1.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[1.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rock/dev_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[1.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rock/dev_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[1.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rock/dev_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/serial/lib'
+[1.122s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/serial/bin'
+[1.122s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/serial/lib/pkgconfig/serial.pc'
+[1.123s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/serial/lib/python3.12/site-packages'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/serial/bin'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/serial/share/serial/package.ps1'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rock/dev_ws/install/serial/share/serial/package.dsv'
+[1.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/serial/share/serial/package.sh'
+[1.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/serial/share/serial/package.bash'
+[1.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/serial/share/serial/package.zsh'
+[1.136s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rock/dev_ws/install/serial/share/colcon-core/packages/serial)
+[1.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/serial' for CMake module files
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/serial' for CMake config files
+[1.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[1.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rock/dev_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[1.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rock/dev_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[1.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rock/dev_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/serial/lib'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/serial/bin'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/serial/lib/pkgconfig/serial.pc'
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/serial/lib/python3.12/site-packages'
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/serial/bin'
+[1.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/serial/share/serial/package.ps1'
+[1.158s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rock/dev_ws/install/serial/share/serial/package.dsv'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/serial/share/serial/package.sh'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/serial/share/serial/package.bash'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/serial/share/serial/package.zsh'
+[1.168s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rock/dev_ws/install/serial/share/colcon-core/packages/serial)
+[1.169s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rock/dev_ws/src/diffdrive_arduino' with build type 'ament_cmake'
+[1.170s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rock/dev_ws/src/diffdrive_arduino'
+[1.170s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.171s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rock/dev_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/rock/dev_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rock/dev_ws/install/serial:/home/rock/ros2_ws/install/my_robot_bringup:/home/rock/ros2_ws/install/my_cpp_pkg:/home/rock/ros2_ws/install/my_robot_interfaces:/home/rock/bookros2_ws/install/br2_deep_ros:/home/rock/bookros2_ws/install/yaets:/home/rock/bookros2_ws/install/tiago_simulation:/home/rock/bookros2_ws/install/tiago_robot:/home/rock/bookros2_ws/install/tiago_navigation:/home/rock/bookros2_ws/install/tiago_gazebo:/home/rock/bookros2_ws/install/tiago_moveit_config:/home/rock/bookros2_ws/install/tiago_2dnav:/home/rock/bookros2_ws/install/tiago_laser_sensors:/home/rock/bookros2_ws/install/tiago_bringup:/home/rock/bookros2_ws/install/tiago_description:/home/rock/bookros2_ws/install/tiago_controller_configuration:/home/rock/bookros2_ws/install/pmb2_robot:/home/rock/bookros2_ws/install/pmb2_rgbd_sensors:/home/rock/bookros2_ws/install/pmb2_navigation:/home/rock/bookros2_ws/install/pmb2_laser_sensors:/home/rock/bookros2_ws/install/pmb2_bringup:/home/rock/bookros2_ws/install/pmb2_description:/home/rock/bookros2_ws/install/pmb2_controller_configuration:/home/rock/bookros2_ws/install/pmb2_2dnav:/home/rock/bookros2_ws/install/play_motion2:/home/rock/bookros2_ws/install/play_motion2_msgs:/home/rock/bookros2_ws/install/pal_hey5:/home/rock/bookros2_ws/install/pal_hey5_description:/home/rock/bookros2_ws/install/pal_gripper_simulation:/home/rock/bookros2_ws/install/pal_gripper:/home/rock/bookros2_ws/install/pal_gripper_description:/home/rock/bookros2_ws/install/omni_base_robot:/home/rock/bookros2_ws/install/omni_base_bringup:/home/rock/bookros2_ws/install/omni_base_description:/home/rock/bookros2_ws/install/pal_urdf_utils:/home/rock/bookros2_ws/install/pal_robotiq_gripper:/home/rock/bookros2_ws/install/pal_robotiq_description:/home/rock/bookros2_ws/install/pal_robotiq_controller_configuration:/home/rock/bookros2_ws/install/pal_maps:/home/rock/bookros2_ws/install/pal_hey5_controller_configuration:/home/rock/bookros2_ws/install/pal_gripper_controller_configuration:/home/rock/bookros2_ws/install/omni_base_controller_configuration:/home/rock/bookros2_ws/install/groot:/home/rock/bookros2_ws/install/br2_vff_avoidance:/home/rock/bookros2_ws/install/br2_tracking:/home/rock/bookros2_ws/install/br2_tracking_msgs:/home/rock/bookros2_ws/install/br2_tiago:/home/rock/bookros2_ws/install/br2_tf2_detector:/home/rock/bookros2_ws/install/br2_navigation:/home/rock/bookros2_ws/install/br2_gazebo_worlds:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_cpp:/home/rock/bookros2_ws/install/br2_bt_patrolling:/home/rock/bookros2_ws/install/br2_bt_bumpgo:/home/rock/bookros2_ws/install/br2_basics:/home/rock/bookros2_ws/install/behaviortree_cpp_v3:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rock/dev_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/rock/dev_ws/build/diffdrive_arduino -- -j8 -l8
+[13.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rock/dev_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/rock/dev_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rock/dev_ws/install/serial:/home/rock/ros2_ws/install/my_robot_bringup:/home/rock/ros2_ws/install/my_cpp_pkg:/home/rock/ros2_ws/install/my_robot_interfaces:/home/rock/bookros2_ws/install/br2_deep_ros:/home/rock/bookros2_ws/install/yaets:/home/rock/bookros2_ws/install/tiago_simulation:/home/rock/bookros2_ws/install/tiago_robot:/home/rock/bookros2_ws/install/tiago_navigation:/home/rock/bookros2_ws/install/tiago_gazebo:/home/rock/bookros2_ws/install/tiago_moveit_config:/home/rock/bookros2_ws/install/tiago_2dnav:/home/rock/bookros2_ws/install/tiago_laser_sensors:/home/rock/bookros2_ws/install/tiago_bringup:/home/rock/bookros2_ws/install/tiago_description:/home/rock/bookros2_ws/install/tiago_controller_configuration:/home/rock/bookros2_ws/install/pmb2_robot:/home/rock/bookros2_ws/install/pmb2_rgbd_sensors:/home/rock/bookros2_ws/install/pmb2_navigation:/home/rock/bookros2_ws/install/pmb2_laser_sensors:/home/rock/bookros2_ws/install/pmb2_bringup:/home/rock/bookros2_ws/install/pmb2_description:/home/rock/bookros2_ws/install/pmb2_controller_configuration:/home/rock/bookros2_ws/install/pmb2_2dnav:/home/rock/bookros2_ws/install/play_motion2:/home/rock/bookros2_ws/install/play_motion2_msgs:/home/rock/bookros2_ws/install/pal_hey5:/home/rock/bookros2_ws/install/pal_hey5_description:/home/rock/bookros2_ws/install/pal_gripper_simulation:/home/rock/bookros2_ws/install/pal_gripper:/home/rock/bookros2_ws/install/pal_gripper_description:/home/rock/bookros2_ws/install/omni_base_robot:/home/rock/bookros2_ws/install/omni_base_bringup:/home/rock/bookros2_ws/install/omni_base_description:/home/rock/bookros2_ws/install/pal_urdf_utils:/home/rock/bookros2_ws/install/pal_robotiq_gripper:/home/rock/bookros2_ws/install/pal_robotiq_description:/home/rock/bookros2_ws/install/pal_robotiq_controller_configuration:/home/rock/bookros2_ws/install/pal_maps:/home/rock/bookros2_ws/install/pal_hey5_controller_configuration:/home/rock/bookros2_ws/install/pal_gripper_controller_configuration:/home/rock/bookros2_ws/install/omni_base_controller_configuration:/home/rock/bookros2_ws/install/groot:/home/rock/bookros2_ws/install/br2_vff_avoidance:/home/rock/bookros2_ws/install/br2_tracking:/home/rock/bookros2_ws/install/br2_tracking_msgs:/home/rock/bookros2_ws/install/br2_tiago:/home/rock/bookros2_ws/install/br2_tf2_detector:/home/rock/bookros2_ws/install/br2_navigation:/home/rock/bookros2_ws/install/br2_gazebo_worlds:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_cpp:/home/rock/bookros2_ws/install/br2_bt_patrolling:/home/rock/bookros2_ws/install/br2_bt_bumpgo:/home/rock/bookros2_ws/install/br2_basics:/home/rock/bookros2_ws/install/behaviortree_cpp_v3:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rock/dev_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/rock/dev_ws/build/diffdrive_arduino -- -j8 -l8
+[13.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rock/dev_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/rock/dev_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rock/dev_ws/install/serial:/home/rock/ros2_ws/install/my_robot_bringup:/home/rock/ros2_ws/install/my_cpp_pkg:/home/rock/ros2_ws/install/my_robot_interfaces:/home/rock/bookros2_ws/install/br2_deep_ros:/home/rock/bookros2_ws/install/yaets:/home/rock/bookros2_ws/install/tiago_simulation:/home/rock/bookros2_ws/install/tiago_robot:/home/rock/bookros2_ws/install/tiago_navigation:/home/rock/bookros2_ws/install/tiago_gazebo:/home/rock/bookros2_ws/install/tiago_moveit_config:/home/rock/bookros2_ws/install/tiago_2dnav:/home/rock/bookros2_ws/install/tiago_laser_sensors:/home/rock/bookros2_ws/install/tiago_bringup:/home/rock/bookros2_ws/install/tiago_description:/home/rock/bookros2_ws/install/tiago_controller_configuration:/home/rock/bookros2_ws/install/pmb2_robot:/home/rock/bookros2_ws/install/pmb2_rgbd_sensors:/home/rock/bookros2_ws/install/pmb2_navigation:/home/rock/bookros2_ws/install/pmb2_laser_sensors:/home/rock/bookros2_ws/install/pmb2_bringup:/home/rock/bookros2_ws/install/pmb2_description:/home/rock/bookros2_ws/install/pmb2_controller_configuration:/home/rock/bookros2_ws/install/pmb2_2dnav:/home/rock/bookros2_ws/install/play_motion2:/home/rock/bookros2_ws/install/play_motion2_msgs:/home/rock/bookros2_ws/install/pal_hey5:/home/rock/bookros2_ws/install/pal_hey5_description:/home/rock/bookros2_ws/install/pal_gripper_simulation:/home/rock/bookros2_ws/install/pal_gripper:/home/rock/bookros2_ws/install/pal_gripper_description:/home/rock/bookros2_ws/install/omni_base_robot:/home/rock/bookros2_ws/install/omni_base_bringup:/home/rock/bookros2_ws/install/omni_base_description:/home/rock/bookros2_ws/install/pal_urdf_utils:/home/rock/bookros2_ws/install/pal_robotiq_gripper:/home/rock/bookros2_ws/install/pal_robotiq_description:/home/rock/bookros2_ws/install/pal_robotiq_controller_configuration:/home/rock/bookros2_ws/install/pal_maps:/home/rock/bookros2_ws/install/pal_hey5_controller_configuration:/home/rock/bookros2_ws/install/pal_gripper_controller_configuration:/home/rock/bookros2_ws/install/omni_base_controller_configuration:/home/rock/bookros2_ws/install/groot:/home/rock/bookros2_ws/install/br2_vff_avoidance:/home/rock/bookros2_ws/install/br2_tracking:/home/rock/bookros2_ws/install/br2_tracking_msgs:/home/rock/bookros2_ws/install/br2_tiago:/home/rock/bookros2_ws/install/br2_tf2_detector:/home/rock/bookros2_ws/install/br2_navigation:/home/rock/bookros2_ws/install/br2_gazebo_worlds:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_cpp:/home/rock/bookros2_ws/install/br2_bt_patrolling:/home/rock/bookros2_ws/install/br2_bt_bumpgo:/home/rock/bookros2_ws/install/br2_basics:/home/rock/bookros2_ws/install/behaviortree_cpp_v3:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rock/dev_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/rock/dev_ws/build/diffdrive_arduino
+[13.664s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[13.665s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/diffdrive_arduino' for CMake module files
+[13.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rock/dev_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/rock/dev_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rock/dev_ws/install/serial:/home/rock/ros2_ws/install/my_robot_bringup:/home/rock/ros2_ws/install/my_cpp_pkg:/home/rock/ros2_ws/install/my_robot_interfaces:/home/rock/bookros2_ws/install/br2_deep_ros:/home/rock/bookros2_ws/install/yaets:/home/rock/bookros2_ws/install/tiago_simulation:/home/rock/bookros2_ws/install/tiago_robot:/home/rock/bookros2_ws/install/tiago_navigation:/home/rock/bookros2_ws/install/tiago_gazebo:/home/rock/bookros2_ws/install/tiago_moveit_config:/home/rock/bookros2_ws/install/tiago_2dnav:/home/rock/bookros2_ws/install/tiago_laser_sensors:/home/rock/bookros2_ws/install/tiago_bringup:/home/rock/bookros2_ws/install/tiago_description:/home/rock/bookros2_ws/install/tiago_controller_configuration:/home/rock/bookros2_ws/install/pmb2_robot:/home/rock/bookros2_ws/install/pmb2_rgbd_sensors:/home/rock/bookros2_ws/install/pmb2_navigation:/home/rock/bookros2_ws/install/pmb2_laser_sensors:/home/rock/bookros2_ws/install/pmb2_bringup:/home/rock/bookros2_ws/install/pmb2_description:/home/rock/bookros2_ws/install/pmb2_controller_configuration:/home/rock/bookros2_ws/install/pmb2_2dnav:/home/rock/bookros2_ws/install/play_motion2:/home/rock/bookros2_ws/install/play_motion2_msgs:/home/rock/bookros2_ws/install/pal_hey5:/home/rock/bookros2_ws/install/pal_hey5_description:/home/rock/bookros2_ws/install/pal_gripper_simulation:/home/rock/bookros2_ws/install/pal_gripper:/home/rock/bookros2_ws/install/pal_gripper_description:/home/rock/bookros2_ws/install/omni_base_robot:/home/rock/bookros2_ws/install/omni_base_bringup:/home/rock/bookros2_ws/install/omni_base_description:/home/rock/bookros2_ws/install/pal_urdf_utils:/home/rock/bookros2_ws/install/pal_robotiq_gripper:/home/rock/bookros2_ws/install/pal_robotiq_description:/home/rock/bookros2_ws/install/pal_robotiq_controller_configuration:/home/rock/bookros2_ws/install/pal_maps:/home/rock/bookros2_ws/install/pal_hey5_controller_configuration:/home/rock/bookros2_ws/install/pal_gripper_controller_configuration:/home/rock/bookros2_ws/install/omni_base_controller_configuration:/home/rock/bookros2_ws/install/groot:/home/rock/bookros2_ws/install/br2_vff_avoidance:/home/rock/bookros2_ws/install/br2_tracking:/home/rock/bookros2_ws/install/br2_tracking_msgs:/home/rock/bookros2_ws/install/br2_tiago:/home/rock/bookros2_ws/install/br2_tf2_detector:/home/rock/bookros2_ws/install/br2_navigation:/home/rock/bookros2_ws/install/br2_gazebo_worlds:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_cpp:/home/rock/bookros2_ws/install/br2_bt_patrolling:/home/rock/bookros2_ws/install/br2_bt_bumpgo:/home/rock/bookros2_ws/install/br2_basics:/home/rock/bookros2_ws/install/behaviortree_cpp_v3:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rock/dev_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/rock/dev_ws/build/diffdrive_arduino
+[13.667s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/diffdrive_arduino' for CMake config files
+[13.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[13.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[13.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[13.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[13.671s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/diffdrive_arduino/lib'
+[13.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[13.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[13.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[13.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[13.675s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/diffdrive_arduino/bin'
+[13.675s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[13.676s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/diffdrive_arduino/lib/python3.12/site-packages'
+[13.677s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/diffdrive_arduino/bin'
+[13.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[13.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[13.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[13.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[13.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[13.685s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rock/dev_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[13.687s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[13.688s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/diffdrive_arduino' for CMake module files
+[13.691s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/diffdrive_arduino' for CMake config files
+[13.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[13.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[13.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[13.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[13.700s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/diffdrive_arduino/lib'
+[13.700s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[13.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[13.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[13.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[13.707s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/diffdrive_arduino/bin'
+[13.707s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[13.709s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/diffdrive_arduino/lib/python3.12/site-packages'
+[13.711s] Level 1:colcon.colcon_core.environment:checking '/home/rock/dev_ws/install/diffdrive_arduino/bin'
+[13.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[13.715s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[13.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[13.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[13.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/rock/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[13.726s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rock/dev_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[13.728s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.730s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.731s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.731s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.761s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.762s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.762s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.817s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.818s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rock/dev_ws/install/local_setup.ps1'
+[13.823s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rock/dev_ws/install/_local_setup_util_ps1.py'
+[13.831s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rock/dev_ws/install/setup.ps1'
+[13.855s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rock/dev_ws/install/local_setup.sh'
+[13.858s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rock/dev_ws/install/_local_setup_util_sh.py'
+[13.861s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rock/dev_ws/install/setup.sh'
+[13.882s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rock/dev_ws/install/local_setup.bash'
+[13.883s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rock/dev_ws/install/setup.bash'
+[13.893s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rock/dev_ws/install/local_setup.zsh'
+[13.893s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rock/dev_ws/install/setup.zsh'

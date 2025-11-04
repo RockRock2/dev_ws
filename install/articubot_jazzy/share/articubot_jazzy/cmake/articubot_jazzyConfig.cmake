@@ -1,0 +1,1 @@
+/home/rock/dev_ws/build/articubot_jazzy/ament_cmake_core/articubot_jazzyConfig.cmake
