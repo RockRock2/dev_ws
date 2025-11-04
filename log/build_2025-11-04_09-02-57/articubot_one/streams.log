@@ -1,0 +1,71 @@
+[0.022s] Invoking command in '/home/rock/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rock/dev_ws/src/articubot_jazzy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rock/dev_ws/install/articubot_one
+[0.100s] -- The C compiler identification is GNU 13.3.0
+[0.171s] -- The CXX compiler identification is GNU 13.3.0
+[0.196s] -- Detecting C compiler ABI info
+[0.324s] -- Detecting C compiler ABI info - done
+[0.333s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.334s] -- Detecting C compile features
+[0.334s] -- Detecting C compile features - done
+[0.346s] -- Detecting CXX compiler ABI info
+[0.488s] -- Detecting CXX compiler ABI info - done
+[0.499s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.499s] -- Detecting CXX compile features
+[0.499s] -- Detecting CXX compile features - done
+[0.513s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.780s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.870s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.054s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.275s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.287s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.287s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.292s] -- Added test 'lint_cmake' to check CMake code style
+[1.294s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.302s] -- Added test 'xmllint' to check XML markup files
+[1.306s] -- Configuring done (1.3s)
+[1.310s] -- Generating done (0.0s)
+[1.312s] -- Build files have been written to: /home/rock/dev_ws/build/articubot_one
+[1.318s] Invoked command in '/home/rock/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rock/dev_ws/src/articubot_jazzy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rock/dev_ws/install/articubot_one
+[1.320s] Invoking command in '/home/rock/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rock/dev_ws/build/articubot_one -- -j8 -l8
+[1.392s] Invoked command in '/home/rock/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rock/dev_ws/build/articubot_one -- -j8 -l8
+[1.410s] Invoking command in '/home/rock/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rock/dev_ws/build/articubot_one
+[1.424s] -- Install configuration: ""
+[1.425s] -- Execute custom install script
+[1.426s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[1.442s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[1.460s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[1.482s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
+[1.507s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/config/main.rviz
+[1.532s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[1.550s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[1.569s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/description/camera.xacro
+[1.588s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[1.616s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/description/face.xacro
+[1.642s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[1.659s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[1.678s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/description/lidar.xacro
+[1.703s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[1.728s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[1.754s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[1.780s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/launch/camera.launch.py
+[1.806s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[1.831s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[1.857s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[1.882s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[1.909s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+[1.934s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[1.963s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[1.990s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[2.015s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[2.040s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[2.066s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[2.091s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[2.116s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[2.136s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[2.157s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[2.181s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[2.202s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/package.dsv
+[2.220s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[2.242s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[2.263s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[2.281s] -- Symlinking: /home/rock/dev_ws/install/articubot_one/share/articubot_one/package.xml
+[2.304s] Invoked command in '/home/rock/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rock/dev_ws/build/articubot_one

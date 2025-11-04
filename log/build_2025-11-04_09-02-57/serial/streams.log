@@ -1,0 +1,81 @@
+[0.031s] Invoking command in '/home/rock/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rock/dev_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rock/dev_ws/install/serial
+[0.117s] -- The C compiler identification is GNU 13.3.0
+[0.187s] -- The CXX compiler identification is GNU 13.3.0
+[0.212s] -- Detecting C compiler ABI info
+[0.340s] -- Detecting C compiler ABI info - done
+[0.350s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.350s] -- Detecting C compile features
+[0.350s] -- Detecting C compile features - done
+[0.363s] -- Detecting CXX compiler ABI info
+[0.505s] -- Detecting CXX compiler ABI info - done
+[0.515s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.515s] -- Detecting CXX compile features
+[0.516s] -- Detecting CXX compile features - done
+[0.529s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.796s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.886s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.072s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.106s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  
+[1.120s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.122s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.263s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.263s] -- Found Threads: TRUE  
+[1.377s] -- Configuring done (1.3s)
+[1.393s] -- Generating done (0.0s)
+[1.398s] -- Build files have been written to: /home/rock/dev_ws/build/serial
+[1.406s] Invoked command in '/home/rock/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rock/dev_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rock/dev_ws/install/serial
+[1.407s] Invoking command in '/home/rock/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rock/dev_ws/build/serial -- -j8 -l8
+[1.496s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.496s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.502s] [ 28%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[1.503s] [ 28%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[1.503s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[2.381s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[2.567s] [ 42%] Built target serial
+[2.607s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[2.693s] [ 57%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.794s] [ 57%] Built target gtest_main
+[3.021s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[3.145s] [ 64%] Built target serial_example
+[5.794s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.938s] [ 71%] Built target gtest
+[5.975s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[5.976s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[6.742s] In file included from [01m[K/usr/include/boost/bind/detail/requires_cxx11.hpp:9[m[K,
+[6.742s]                  from [01m[K/usr/include/boost/bind/bind.hpp:24[m[K,
+[6.742s]                  from [01m[K/usr/include/boost/bind.hpp:29[m[K,
+[6.742s]                  from [01m[K/home/rock/dev_ws/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[6.742s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[6.742s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[6.742s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.967s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[7.091s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[7.142s] [100%] Built target serial-test-timer
+[7.267s] [100%] Built target serial-test
+[7.288s] Invoked command in '/home/rock/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rock/dev_ws/build/serial -- -j8 -l8
+[7.290s] Invoking command in '/home/rock/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rock/dev_ws/build/serial
+[7.305s] -- Install configuration: ""
+[7.306s] -- Execute custom install script
+[7.306s] -- Symlinking: /home/rock/dev_ws/install/serial/lib/libserial.a
+[7.325s] -- Symlinking: /home/rock/dev_ws/install/serial/include/serial/serial.h
+[7.343s] -- Symlinking: /home/rock/dev_ws/install/serial/include/serial/v8stdint.h
+[7.361s] -- Symlinking: /home/rock/dev_ws/install/serial/share/serial/environment/library_path.sh
+[7.378s] -- Symlinking: /home/rock/dev_ws/install/serial/share/serial/environment/library_path.dsv
+[7.395s] -- Symlinking: /home/rock/dev_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[7.413s] -- Symlinking: /home/rock/dev_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[7.431s] -- Symlinking: /home/rock/dev_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[7.448s] -- Symlinking: /home/rock/dev_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[7.465s] -- Symlinking: /home/rock/dev_ws/install/serial/share/serial/environment/path.sh
+[7.482s] -- Symlinking: /home/rock/dev_ws/install/serial/share/serial/environment/path.dsv
+[7.499s] -- Symlinking: /home/rock/dev_ws/install/serial/share/serial/local_setup.bash
+[7.516s] -- Symlinking: /home/rock/dev_ws/install/serial/share/serial/local_setup.sh
+[7.534s] -- Symlinking: /home/rock/dev_ws/install/serial/share/serial/local_setup.zsh
+[7.552s] -- Symlinking: /home/rock/dev_ws/install/serial/share/serial/local_setup.dsv
+[7.569s] -- Symlinking: /home/rock/dev_ws/install/serial/share/serial/package.dsv
+[7.586s] -- Symlinking: /home/rock/dev_ws/install/serial/share/ament_index/resource_index/packages/serial
+[7.603s] -- Symlinking: /home/rock/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.620s] -- Symlinking: /home/rock/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[7.637s] -- Symlinking: /home/rock/dev_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[7.655s] -- Symlinking: /home/rock/dev_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[7.672s] -- Symlinking: /home/rock/dev_ws/install/serial/share/serial/package.xml
+[7.693s] Invoked command in '/home/rock/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rock/ros2_ws/install/turtle_controller:/home/rock/ros2_ws/install/my_py_pkg:/home/rock/bookros2_ws/install/launch_pal:/home/rock/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rock/dev_ws/build/serial
